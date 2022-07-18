@@ -1,0 +1,8 @@
+.home-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.home-container h1 {
+    text-transform: capitalize;
+}

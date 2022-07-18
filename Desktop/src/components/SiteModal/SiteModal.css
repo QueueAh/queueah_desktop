@@ -1,0 +1,62 @@
+.modal-component {
+  background-color: #000000e6;
+  background-color: (0, 0, 0);
+  left: 0;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.modal-container {
+  background: #ffffff;
+  margin: 20px auto;
+  animation: createBox 1s;
+  max-width: 90vw;
+  height: 90vh;
+}
+
+.modal-container-content {
+  overflow-y: scroll;
+  height: 100vh;
+  padding: 5px;
+}
+
+.modal-container-content::-webkit-scrollbar {
+  display: none;
+}
+
+/* The Close Button */
+.blank-close {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  color: #ffffff;
+}
+
+.modal-close {
+  float: right;
+  color: black;
+  margin: 3px 5px;
+  cursor: pointer;
+}
+
+.blank-close:hover,
+.blank-close:focus {
+  color: #d0c900;
+  cursor: pointer;
+}
+
+.modal-example-button {
+  margin: 10px auto;
+}
+
+@keyframes createBox {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

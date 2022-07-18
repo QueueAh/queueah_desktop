@@ -1,0 +1,19 @@
+
+.event-card {
+    width: 300px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.event-card img {
+    height: 200px;
+}
+.event-meta {
+    height: 100px;
+}
+
+@media screen and (max-width: 640px) {
+    .event-card {
+        width: 70vw;
+    }
+    
+}

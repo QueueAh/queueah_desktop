@@ -1,0 +1,14 @@
+.event-form-container {
+    width: 90vw;
+    margin: 20px auto;
+}
+
+.event-form-container h1 {
+    margin: 20px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.add-event-button {
+    margin: 10px 20px 20px 0px;
+}

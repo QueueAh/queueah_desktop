@@ -1,0 +1,6 @@
+.antd-table {
+  overflow-x: scroll;
+  max-height: 75vh;
+  margin: 20px auto 0px;
+  width: 95vw;
+}

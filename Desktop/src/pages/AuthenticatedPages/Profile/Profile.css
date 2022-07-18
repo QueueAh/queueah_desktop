@@ -1,0 +1,36 @@
+.profile-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 5% 5%;
+}
+
+.profile-title {
+  color: grey;
+  font-size: 18px;
+  border-radius: 5% 5% 0% 0%;
+}
+
+.profile-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.profile-id-container {
+    background: black;
+    color: white;
+    padding: 1px
+}
+.profile-button{
+  opacity: 0.7;
+}

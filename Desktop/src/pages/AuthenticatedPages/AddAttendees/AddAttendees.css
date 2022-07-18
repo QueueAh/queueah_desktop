@@ -1,0 +1,61 @@
+.back-attendees-button button,
+.back-attendees-button button:hover,
+.email-attendees-button button,
+.email-attendees-button button:hover {
+  margin: 10px 0px 20px auto;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.email-attendees-button button a {
+  color: white;
+}
+
+.email-attendees-button,
+.add-attendees-button {
+  display: flex;
+  width: 95vw;
+  margin: auto;
+}
+
+.email-attendees-form {
+  padding: 20px;
+}
+
+.confirm-buttons-container {
+  text-align: center;
+}
+
+.email-attendees-form button {
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.email-attendees-form h1 {
+  text-align: center;
+}
+
+.add-attendees-button button {
+  margin: 5px 0px 20px auto;
+}
+
+.add-attendees-container {
+  padding: 20px;
+}
+.add-attendees-container form {
+  border: 1px dashed grey;
+  text-align: center;
+  padding: 100px;
+}
+
+.add-attendees-container h1,
+.add-attendees-container h3 {
+  text-align: center;
+}
+
+.add-attendees-container form button {
+  background-color: white;
+  border: 0px;
+}
